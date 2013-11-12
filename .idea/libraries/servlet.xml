@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="servlet">
+    <CLASSES>
+      <root url="jar://C:/hao24/lib/servlet.jar!/" />
+      <root url="jar://C:/hao24/lib/javax.jms.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

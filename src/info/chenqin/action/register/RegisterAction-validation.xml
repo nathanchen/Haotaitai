@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE validators PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.dtd">
+
+<validators>
+    <field name="username">
+        <field-validator type="requiredstring">
+            <param name="trim">true</param>
+            <message>username is required</message>
+        </field-validator>
+        <field-validator type="regex">
+            <param name="regexExpression"><![CDATA[(\w{4,25})]]></param>
+            <message>username can only be something something</message>
+        </field-validator>
+    </field>
+
+    <field name="password">
+        <field-validator type="requiredstring">
+            <param name="trim">true</param>
+            <message>password is required</message>
+        </field-validator>
+        <field-validator type="regex">
+            <param name="regexExpression"><![CDATA[(\w{4,25})]]></param>
+            <message>password can only be something something</message>
+        </field-validator>
+    </field>
+
+    <field name="age">
+        <field-validator type="int">
+            <param name="min">1</param>
+            <param name="max">150</param>
+            <message>age can only be between 1 and 150</message>
+        </field-validator>
+    </field>
+
+    <field name="birthday">
+        <field-validator type="date">
+            <param name="min">1900-01-01</param>
+            <param name="max">2050-02-21</param>
+            <message>birthday can only be between ${min} and ${max}</message>
+        </field-validator>
+    </field>
+</validators>
