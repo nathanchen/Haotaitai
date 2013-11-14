@@ -11,5 +11,8 @@
 
         <mapping resource="info/chenqin/hibernate/model/User.hbm.xml"/>
         <mapping resource="info/chenqin/hibernate/model/Book.hbm.xml"/>
+
+        <mapping resource="info/chenqin/hibernate/model/Person.hbm.xml"/>
+        <mapping resource="info/chenqin/hibernate/model/IDCard.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>
