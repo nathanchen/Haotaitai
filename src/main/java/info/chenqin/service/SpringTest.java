@@ -11,7 +11,7 @@ public class SpringTest
 {
     public static void main(String[] args)
     {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("bean.xml");
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("src/bean.xml");
         System.out.println(applicationContext);
 
         PersonService personService = applicationContext.getBean("personService", PersonService.class);

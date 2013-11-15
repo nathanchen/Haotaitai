@@ -9,6 +9,6 @@
     <constant name="struts.custom.i18n.resources" value="mess" />
     <constant name="struts.i18n.encoding" value="UTF-8" />
 
-    <include file="struts-login.xml" />
-    <include file="struts-register.xml" />
+    <include file="src/struts-login.xml" />
+    <include file="src/struts-register.xml" />
 </struts>

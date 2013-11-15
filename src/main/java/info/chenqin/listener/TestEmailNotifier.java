@@ -11,7 +11,7 @@ public class TestEmailNotifier
 {
     public static void main(String[] args)
     {
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("bean.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("src/bean.xml");
         EmailEvent event = new EmailEvent("hello", "natechen@me.com", "this is the body");
         ctx.publishEvent(event);
     }

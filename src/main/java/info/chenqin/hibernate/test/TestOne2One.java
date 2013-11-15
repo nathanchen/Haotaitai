@@ -13,7 +13,7 @@ public class TestOne2One
     public static void main(String[] args)
     {
         TestOne2One testOne2One = new TestOne2One();
-        testOne2One.testAdd();
+        testOne2One.testLoad01();
     }
 
 
@@ -43,6 +43,26 @@ public class TestOne2One
                 session.getTransaction().rollback();
         }
         finally {
+            if (session != null)
+                session.close();
+        }
+    }
+
+    public void testLoad01()
+    {
+        Session session = null;
+        try
+        {
+            session = HibernateUtil.openSession();
+            IDCard idCard = (IDCard) session.load(IDCard.class, 1);
+            System.out.println(idCard.getNumber() + ", " + idCard.getPerson().getName());
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        finally
+        {
             if (session != null)
                 session.close();
         }
