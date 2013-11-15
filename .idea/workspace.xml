@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a76e95e-1949-4ffc-93de-03de92ef59e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
       <change type="DELETED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\info\chenqin\action\login\LoginAction.java" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\info\chenqin\action\register\RegisterAction-validation.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\info\chenqin\action\register\RegisterAction.java" afterPath="" />
@@ -32,28 +31,9 @@
       <change type="DELETED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\info\chenqin\service\PersonService.java" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\info\chenqin\service\SpringTest.java" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\info\chenqin\webservices\XMemcachedClient.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\main\java\bean.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\main\java\hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\main\java\struts.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\mess.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\struts-login.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\struts-register.xml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\bean.xml" afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" />
-      <change type="MOVED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change type="MOVED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\main\java\info\chenqin\hibernate\model\Book.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/Book.hbm.xml" />
-      <change type="MOVED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\main\java\info\chenqin\hibernate\model\IDCard.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/IDCard.hbm.xml" />
-      <change type="MOVED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\main\java\info\chenqin\hibernate\model\Person.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/Person.hbm.xml" />
-      <change type="MOVED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\main\java\info\chenqin\hibernate\model\User.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/User.hbm.xml" />
-      <change type="MOVED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\main\java\mess.properties" afterPath="$PROJECT_DIR$/src/main/resources/mess.properties" />
-      <change type="MOVED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\main\java\struts-login.xml" afterPath="$PROJECT_DIR$/src/main/resources/struts-login.xml" />
-      <change type="MOVED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\main\java\struts-register.xml" afterPath="$PROJECT_DIR$/src/main/resources/struts-register.xml" />
-      <change type="MOVED" beforePath="C:\Users\Nathanchen\Documents\HaoTaitai\src\struts.xml" afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HaoTaitai.iml" afterPath="$PROJECT_DIR$/HaoTaitai.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/info/chenqin/service/SpringTest.java" afterPath="$PROJECT_DIR$/src/main/java/info/chenqin/service/SpringTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/info/chenqin/listener/TestEmailNotifier.java" afterPath="$PROJECT_DIR$/src/main/java/info/chenqin/listener/TestEmailNotifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/Person.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/Person.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/model/Person.java" afterPath="$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/model/Person.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/test/TestOne2One.java" afterPath="$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/test/TestOne2One.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HaoTaitai.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -137,10 +117,10 @@
     <file path="/Book.hbm.xml" changelist="6a76e95e-1949-4ffc-93de-03de92ef59e5" time="1384331219053" ignored="false" />
     <file path="/TestIDGen.java" changelist="6a76e95e-1949-4ffc-93de-03de92ef59e5" time="1384331770315" ignored="false" />
     <file path="/IDCard.java" changelist="6a76e95e-1949-4ffc-93de-03de92ef59e5" time="1384409224393" ignored="false" />
-    <file path="/Person.java" changelist="6a76e95e-1949-4ffc-93de-03de92ef59e5" time="1384409252813" ignored="false" />
-    <file path="/Person.hbm.xml" changelist="6a76e95e-1949-4ffc-93de-03de92ef59e5" time="1384417928359" ignored="false" />
+    <file path="/Person.java" changelist="6a76e95e-1949-4ffc-93de-03de92ef59e5" time="1384499026259" ignored="false" />
+    <file path="/Person.hbm.xml" changelist="6a76e95e-1949-4ffc-93de-03de92ef59e5" time="1384499106306" ignored="false" />
     <file path="/IDCard.hbm.xml" changelist="6a76e95e-1949-4ffc-93de-03de92ef59e5" time="1384418027684" ignored="false" />
-    <file path="/TestOne2One.java" changelist="6a76e95e-1949-4ffc-93de-03de92ef59e5" time="1384497883177" ignored="false" />
+    <file path="/TestOne2One.java" changelist="6a76e95e-1949-4ffc-93de-03de92ef59e5" time="1384499273232" ignored="false" />
     <file path="/pom.xml" changelist="6a76e95e-1949-4ffc-93de-03de92ef59e5" time="1384496295117" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,6 +146,20 @@
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/test/TestState.java" line="18" class="info.chenqin.hibernate.test.TestState" package="info.chenqin.hibernate.test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/test/TestOne2One.java" line="15" class="info.chenqin.hibernate.test.TestOne2One" package="info.chenqin.hibernate.test">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -253,7 +247,7 @@
       <file leaf-file-name="Person.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/model/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+            <state line="12" column="5" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -262,7 +256,7 @@
       <file leaf-file-name="Person.hbm.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/Person.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="40" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+            <state line="11" column="57" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -271,7 +265,7 @@
       <file leaf-file-name="IDCard.hbm.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/IDCard.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="60" selection-start="460" selection-end="464" vertical-scroll-proportion="0.0">
+            <state line="13" column="20" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -298,7 +292,7 @@
       <file leaf-file-name="TestOne2One.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/test/TestOne2One.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="37" selection-start="848" selection-end="848" vertical-scroll-proportion="-0.10787172">
+            <state line="52" column="31" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.3877551">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -337,8 +331,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/info/chenqin/hibernate/test/TestCRUD.java" />
-        <option value="$PROJECT_DIR$/src/info/chenqin/hibernate/test/TestState.java" />
         <option value="$PROJECT_DIR$/src/info/chenqin/hibernate/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/info/chenqin/hibernate/test/TestLazyLoad.java" />
         <option value="$PROJECT_DIR$/src/info/chenqin/hibernate/model/Book.java" />
@@ -351,8 +343,10 @@
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/info/chenqin/hibernate/test/TestOne2One.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/test/TestOne2One.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/model/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/Person.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/test/TestOne2One.java" />
       </list>
     </option>
   </component>
@@ -364,7 +358,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2049" />
+    <option name="x" value="2001" />
     <option name="y" value="-280" />
     <option name="width" value="1210" />
     <option name="height" value="1080" />
@@ -1178,7 +1172,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2049" y="-280" width="1210" height="1080" extended-state="0" />
+    <frame x="2001" y="-280" width="1210" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1281,7 +1275,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="39" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1295,7 +1289,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="6" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1311,7 +1305,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="25" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1326,34 +1320,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/Book.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="20" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/Person.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="40" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/model/IDCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/model/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/IDCard.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="60" selection-start="460" selection-end="464" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1379,9 +1345,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/model/IDCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/Person.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="57" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/info/chenqin/hibernate/model/IDCard.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/chenqin/hibernate/test/TestOne2One.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="37" selection-start="848" selection-end="848" vertical-scroll-proportion="-0.10787172">
+        <state line="52" column="31" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.3877551">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

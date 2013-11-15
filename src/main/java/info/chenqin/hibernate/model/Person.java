@@ -7,6 +7,17 @@ public class Person
 {
     private int id;
     private String name;
+    private IDCard idCard;
+
+    public IDCard getIdCard ()
+    {
+        return idCard;
+    }
+
+    public void setIdCard (IDCard idCard)
+    {
+        this.idCard = idCard;
+    }
 
     public Person ()
     {

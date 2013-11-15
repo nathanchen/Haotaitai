@@ -9,5 +9,6 @@
             <generator class="native"/>
         </id>
         <property name="name"/>
+        <one-to-one name="idCard" property-ref="person"/>
     </class>
 </hibernate-mapping>
